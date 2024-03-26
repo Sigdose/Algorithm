@@ -15,11 +15,11 @@ int main(void)
 	
 	int diff = Y-X;
 	fibo[0] = 0;
-	//fibo[1] = 1; // 1 ;
-	//fibo[2] = 2; // 1 + 1;
-	//fibo[3] = 4; //1 + 2 + 1;
+	//fibo[1] = 1; // 1 ;  
+	//fibo[2] = 2; // 1 + 1; 
+	//fibo[3] = 4; //1 + 2 + 1; 
 	//fibo[4] = 6; //1 + 2 + 2 + 1;
-	//fibo[5] = 9;
+	//fibo[5] = 9; //1 + 2 + 3 + 2 + 1;
 	if(diff == 0)
 	{
 		cout<<"0"<<"\n";
@@ -42,11 +42,13 @@ int main(void)
 			return 0;
 		}
 	}
+	
 	/*
-	for(int i=0;i<100000;i++)
+	for(int i=0;i<100000;i++) //예제출력 
 	{
 		cout<<i<<" "<<fibo[i]<<"\n";
-	}*/
+	}
+	*/
 	
 	return 0; 
 }
